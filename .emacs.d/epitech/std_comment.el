@@ -1,14 +1,4 @@
-;;
-;; StdComment.el for Emacs in ~/Emacs
-;;
-;; Made by Frederic Denis
-;; Login   <bah_d@epitech.net>
-;;
-;; Started on  Thu Sep  9 23:34:05 1993 djenaba bah
-;; Last update Tue Jan 17 11:41:23 2012 sebastien barst
-;;
-;; Based on Comment routines by Isaac
-;;
+;; Last update Tue Jul  8 13:43:28 2014 teddy fontaine
 
 (if (file-exists-p "/usr/school/etc/emacs/php-mode.el")
     (load-file "/usr/school/etc/emacs/php-mode.el"))
@@ -30,7 +20,7 @@
       header-last	"Last update "
       header-for	" for "
       header-in		" in "
-      domaine-name	"epitech.net")
+      domaine-name	"epitech.eu")
 (if (setq user-nickname (getenv "FULLNAME"))
     t
   (setq user-nickname (user-full-name))
